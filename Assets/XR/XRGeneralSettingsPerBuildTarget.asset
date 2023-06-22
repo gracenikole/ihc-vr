@@ -16,7 +16,7 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 9d25be8e536ffee4d9eb7004c21be01d, type: 2}
+  - {fileID: 11400000, guid: cfc23c9cc812ed1448b5ae2fceab4cdc, type: 2}
 --- !u!114 &-6358787416698816661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30,6 +30,37 @@ MonoBehaviour:
   m_Name: Standalone Settings
   m_EditorClassIdentifier: 
   m_LoaderManagerInstance: {fileID: -630500469955244345}
+  m_InitManagerOnStart: 1
+--- !u!114 &-3451266304153212435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: WSA Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders:
+  - {fileID: 11400000, guid: cfc23c9cc812ed1448b5ae2fceab4cdc, type: 2}
+--- !u!114 &-718364559971137561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: WSA Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: -3451266304153212435}
   m_InitManagerOnStart: 1
 --- !u!114 &-630500469955244345
 MonoBehaviour:
@@ -48,6 +79,7 @@ MonoBehaviour:
   m_AutomaticRunning: 0
   m_Loaders:
   - {fileID: 11400000, guid: 9d25be8e536ffee4d9eb7004c21be01d, type: 2}
+  - {fileID: 11400000, guid: cfc23c9cc812ed1448b5ae2fceab4cdc, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,10 +92,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 0100000007000000
+  Keys: 01000000070000000e000000
   Values:
   - {fileID: -6358787416698816661}
   - {fileID: 1849368872376614863}
+  - {fileID: -718364559971137561}
 --- !u!114 &1849368872376614863
 MonoBehaviour:
   m_ObjectHideFlags: 0
