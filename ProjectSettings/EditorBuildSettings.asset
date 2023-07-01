@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Supercyan Free Forest Sample/Scenes/BrightDay.unity
     guid: 106025b4713992744bb2e8999d6a3608
+  - enabled: 0
+    path: Assets/Scenes/Hands.unity
+    guid: b8d68e2372d51d146878985e4610aa5c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dec2979528aeecb4fac59281f8520d4b, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 05727ef68c64d3e40bffecd1922b0eaa, type: 2}

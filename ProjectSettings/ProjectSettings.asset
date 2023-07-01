@@ -137,10 +137,9 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 0}
-  - {fileID: 11400000, guid: f0e7d4036a9394a4ab79624259d1a657, type: 2}
   - {fileID: 0}
-  - {fileID: 1849368872376614863, guid: 05727ef68c64d3e40bffecd1922b0eaa, type: 2}
-  - {fileID: 11400000, guid: dec2979528aeecb4fac59281f8520d4b, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: f0e7d4036a9394a4ab79624259d1a657, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -465,9 +464,7 @@ PlayerSettings:
     m_Encoding: 1
   - m_BuildTarget: tvOS
     m_Encoding: 1
-  m_BuildTargetDefaultTextureCompressionFormat:
-  - m_BuildTarget: Android
-    m_Format: 3
+  m_BuildTargetDefaultTextureCompressionFormat: []
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -724,6 +721,7 @@ PlayerSettings:
     Android: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel:
+    Android: 1
     EmbeddedLinux: 1
     GameCoreScarlett: 1
     GameCoreXboxOne: 1
