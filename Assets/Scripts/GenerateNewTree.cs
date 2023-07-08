@@ -11,7 +11,6 @@ public class GenerateNewTree : MonoBehaviour
         float customPositionY = 1.57F;
         float customPositionZ = -0.201F;
         Vector3 customPosition = new Vector3(customPositionX, customPositionY, customPositionZ);
-
         Instantiate(prefabToGenerate, customPosition, transform.rotation);
     }
 }

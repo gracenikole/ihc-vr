@@ -6,6 +6,7 @@ public class ActiveTree : MonoBehaviour
 {
     public GameObject plantedTree;
     public GameObject canvas;
+    public GameObject timer;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -13,6 +14,7 @@ public class ActiveTree : MonoBehaviour
         {
             plantedTree.SetActive(true);
             canvas.SetActive(true);
+            timer.SetActive(true);
         }
     }
 }
