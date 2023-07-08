@@ -8,7 +8,9 @@ public class GenerateNewTree : MonoBehaviour
 
     public void Generate() {
         Vector3 position = transform.position;
-        Instantiate(prefabToGenerate, position, Quaternion.identity);
+        Quaternion rotation = transform.rotation;
+
+        Instantiate(prefabToGenerate, position, rotation);
         // gameObject.SetActive(false);
 
         // float customPositionX = 0.00999999F;
