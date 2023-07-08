@@ -5,16 +5,16 @@ using UnityEngine;
 public class ActiveTree : MonoBehaviour
 {
     public GameObject plantedTree;
-    public GameObject canvas;
-    public GameObject timer;
+    public GameObject Canvas;
+    public GameObject Timer;
 
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.collider.CompareTag("UnplantedTree"))
         {
             plantedTree.SetActive(true);
-            canvas.SetActive(true);
-            timer.SetActive(true);
+            Canvas.SetActive(true);
+            Timer.SetActive(true);
         }
     }
 }

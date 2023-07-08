@@ -8,6 +8,7 @@ TagManager:
   - SamplesInfoPanel
   - PlantingArea
   - UnplantedTree
+  - ShovelKiller
   layers:
   - Default
   - TransparentFX

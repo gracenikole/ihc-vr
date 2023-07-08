@@ -3528,8 +3528,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantedTree: {fileID: 510858757}
-  canvas: {fileID: 0}
-  timer: {fileID: 0}
+  Canvas: {fileID: 0}
+  Timer: {fileID: 0}
 --- !u!65 &800645506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3679,6 +3679,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1794649084}
     m_Modifications:
+    - target: {fileID: 154322, guid: df49161344bb1984fa65e7ccd3a06653, type: 3}
+      propertyPath: m_TagString
+      value: ShovelKiller
+      objectReference: {fileID: 0}
     - target: {fileID: 174154, guid: df49161344bb1984fa65e7ccd3a06653, type: 3}
       propertyPath: m_Name
       value: ShovelPrefab
@@ -3686,6 +3690,10 @@ PrefabInstance:
     - target: {fileID: 174154, guid: df49161344bb1984fa65e7ccd3a06653, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 174154, guid: df49161344bb1984fa65e7ccd3a06653, type: 3}
+      propertyPath: m_TagString
+      value: ShovelKiller
       objectReference: {fileID: 0}
     - target: {fileID: 408744, guid: df49161344bb1984fa65e7ccd3a06653, type: 3}
       propertyPath: m_RootOrder
@@ -7267,8 +7275,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantedTree: {fileID: 2104680742}
-  canvas: {fileID: 0}
-  timer: {fileID: 0}
+  Canvas: {fileID: 0}
+  Timer: {fileID: 0}
 --- !u!65 &1662327343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8092,6 +8100,7 @@ GameObject:
   - component: {fileID: 1909059440}
   - component: {fileID: 1909059439}
   - component: {fileID: 1909059443}
+  - component: {fileID: 1909059444}
   m_Layer: 0
   m_Name: Ground 3
   m_TagString: PlantingArea
@@ -8204,8 +8213,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantedTree: {fileID: 386518030}
-  canvas: {fileID: 450990447}
-  timer: {fileID: 1161828790}
+  Canvas: {fileID: 450990447}
+  Timer: {fileID: 1161828790}
+--- !u!114 &1909059444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909059435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d6bb2c9c1e6894f817ef643cc11854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlantedTree: {fileID: 386518030}
+  Canvas: {fileID: 450990447}
+  Timer: {fileID: 1161828790}
+  HabitTitle: {fileID: 189715808}
 --- !u!1 &1943812162
 GameObject:
   m_ObjectHideFlags: 0
@@ -8222,7 +8247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1943812163
 Transform:
   m_ObjectHideFlags: 0
