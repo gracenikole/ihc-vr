@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3270211, g: 0.28962654, b: 0.32214934, a: 1}
+  m_IndirectSpecularColor: {r: 0.32612136, g: 0.28973797, b: 0.32138827, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4363,7 +4363,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1794649084}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &980525819
 GameObject:
@@ -8086,6 +8086,63 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4124717949350423354, guid: f090c9cddfdd07546855e485b3e391af, type: 3}
   m_PrefabInstance: {fileID: 4124717949265178209}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1900592206
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1794649084}
+    m_Modifications:
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.134
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545160746, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7424620061545266186, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
+      propertyPath: m_Name
+      value: Watering Can
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b5ca5002a06a13d409b74dcbefa9165d, type: 3}
 --- !u!1 &1909059435
 GameObject:
   m_ObjectHideFlags: 0
@@ -8264,7 +8321,7 @@ Transform:
   - {fileID: 2021509458}
   - {fileID: 1326440123}
   m_Father: {fileID: 1794649084}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1943812164
 MonoBehaviour:
