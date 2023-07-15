@@ -12,7 +12,6 @@ public class PourWater : MonoBehaviour
         // Check if the watering can is tilted enough
         if (Vector3.Angle(Vector3.up, transform.up) > thresholdAngle)
         {
-            Debug.Log(Vector3.Angle(Vector3.up, transform.up));
             // If it is, start the Particle System
             if (!waterParticles.isPlaying)
             {

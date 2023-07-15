@@ -12,6 +12,7 @@ public class ActiveTree : MonoBehaviour
     {
         if(collision.collider.CompareTag("UnplantedTree"))
         {
+            Debug.Log("collision in unplanted tree");
             plantedTree.SetActive(true);
             Canvas.SetActive(true);
             Timer.SetActive(true);

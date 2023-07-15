@@ -18,7 +18,6 @@ public class SetHabit : MonoBehaviour
 
     public void CreateHabit()
     {        
-        Debug.Log("A: " + habit.text);
         // Debug.Log("A: " + time.text);
     }
 }
